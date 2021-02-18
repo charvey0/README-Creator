@@ -31,8 +31,8 @@ const questions = [
     {
         name: "license",
         type: "list",
-        message: "Please select a license:", 
-        choices: ["Apache 2.0 (preserves copyright and license notices)","GNU GPLv3(can modify, can't distribute closed source)","MIT (simple and permissive)","Unlicense (public domain)"],       
+        message: "Please select a license (listed from most restrictive to least restrictive):", 
+        choices: ["GNU GPLv3","Apache 2.0","MIT","Unlicense"],       
     },
     {
         name: "default_contribute",
