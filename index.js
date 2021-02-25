@@ -1,6 +1,6 @@
 const inq = require('inquirer');
 const fs = require("fs");
-const fileName = "sampleREADME.md";
+const fileName = "README.md";
 
 
 const questions = [
