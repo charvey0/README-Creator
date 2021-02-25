@@ -1,11 +1,12 @@
 {
   "name": "readme-creator",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![MIT License][license-shield]]['https://img.shields.io/static/v1?label=Lisence&message=MIT&color=blue'] [![LinkedIn][linkedin-shield]][linkedin-url]",
   "main": "index.js",
   "dependencies": {
     "fs": "0.0.1-security",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "rxjs": "^6.6.3"
   },
   "devDependencies": {},
   "scripts": {
